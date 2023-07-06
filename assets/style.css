@@ -11,6 +11,13 @@ html, body {
     font-family: Quicksand, sans-serif;
 }
 
+img.preload {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+}
+
 p.title {
     font-family: Quicksand, sans-serif;
     font-size: 78px;
