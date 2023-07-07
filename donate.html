@@ -19,6 +19,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;family=Quicksand:wght@500&amp;family=Yellowtail&amp;display=swap" rel="stylesheet">
     </head>
     <body>
+        <div id="preloader"></div>
         <div class="content">
             <div>
                 <center>
@@ -38,5 +39,11 @@
             <a class="text" style="margin: 0px 0px 20px 0px;">Ethereum Address - 0x73B10bc7bC2F9E194f2CBc686aD459F499F12CbA</a>
             <a class="text">Litecoin Address - LgwxSp7eqAhZDbcuQNuDWmM7kn3SG9GCoK</a>
         </div>
+        <script>
+            var loader = document.getElementById("preloader");
+            window.addEventListener("load", function() {
+                loader.style.display = "none";
+            })
+        </script>
     </body>
 </html>

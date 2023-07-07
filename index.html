@@ -19,6 +19,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;family=Quicksand:wght@500&amp;family=Yellowtail&amp;display=swap" rel="stylesheet">
     </head>
     <body>
+        <div id="preloader"></div>
         <div class="content">
             <div>
                 <center>
@@ -32,5 +33,11 @@
                 </center>
             </div>
         </div>
+        <script>
+            var loader = document.getElementById("preloader");
+            window.addEventListener("load", function() {
+                loader.style.display = "none";
+            })
+        </script>
     </body>
 </html>
